@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Xarizma-2</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221211174401">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+
+
+		<header class="header" id="top">
+			<div class="header__container">
+
+
+				<div class="header__wrap">
+
+					<a href="" class="header__logo logo-header"><img src="img/logo.svg" alt="" class="logo-header__img"></a>
+
+					<div class="header__menu menu">
+
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item "><a href="tel:+380971234567" class="menu__link link-phone">+38 (097)
+										123-45-67</a>
+								</li>
+								<li class="menu__item "><a href="" class="menu__link link-place">м. Парк</a></li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="header__button button-header  " data-da=".header__menu, 770">
+						<a href="#holl" class="button-header__holl button-top">Наши залы</a>
+						<a href="" data-popup="#popup" class="button-header__booking button-top ">Забронировать</a>
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+
+			</div>
+		</header>
+		<div id="popup" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">&#10006;</button>
+					<div class="popup__text text-popup">
+
+
+						<div class="popup__box">
+							<div class="popup__box-item">
+								<div class="popup__img">
+									<img src="img/icon-global/phone.svg" width="40" height="40" alt="Phone">
+								</div>
+
+								<h2 class="popup__title">Оставьте свои данные</h2>
+
+								<div class="popup__descr">Перезвоним в течении 2 минут!</div>
+
+								<div class="popup__input">
+									<input type="text" name="name" class="input-name" placeholder="Ваше имя">
+									<input type="tel" name="tel" class="input-phone" placeholder="+381234123412">
+								</div><!-- popup__input -->
+
+								<button data-close type="submit" class="popup__submit">Забронировать</button>
+
+							</div><!-- popup__box-item -->
+						</div><!-- popup__box -->
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mask">
+			<div class="load">
+				<div class="ring ring1"></div>
+				<div class="ring ring2"></div>
+				<div class="ring ring3"></div>
+			</div>
+		</div>
+
+
+
+		<section class="page_top top-page">
+			<div class="top-page__container">
+				<div class="top-page__box">
+					<div class="top-page__wrap">
+						<div class="top-page__left top-left">
+							<div class="top-left__descr">Арендуй Караоке-Зал до 10 человек</div>
+							<div class="top-left__title gs-title-top">возьми алкоголь
+								и еду с собой<span>м. Парк</span></div>
+
+							<div class="top-left__items">
+								<div class="top-left__item">Если хочешь попеть
+									и оторваться</div>
+								<div class="top-left__item">Отдохнуть
+									после работы </div>
+								<div class="top-left__item">Хорошо
+									провести время</div>
+							</div>
+
+							<span class="top-left__pointer">Листайте вниз</span>
+							<div class="top-left__button ">
+								<a href="" data-popup="#popup" class="button__top-left button-top">Забронировать
+									онлайн</a>
+							</div>
+						</div>
+
+						<div class="top-page__right right-top-page">
+
+							<div class="right-top-page__images right-top-images">
+								<img src="img/birca.png" alt="birca" class="right-top__img-birca">
+								<img src="img/dancer.png" alt="dancer" data-speed="40" class="right-top__img-dancer parallax-img">
+								<img src="img/microphone.png" alt="microphone" data-speed="80" class="right-top__img-microphone parallax-img">
+								<a href="" class="right-top__telegram">Связаться с нами</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="top-page__block block-top-page">
+				<div class="block-top-page__items">
+					<div class="block-top-page__item item-micropfone">
+						<img src="img/icon-xarizma/micropfone.svg" alt="micropfone" class="block-top-page__micro">
+						<span class="block-top-page__line">&#8213;</span>
+						<span class="block-top-page__descr "> Профессиональное караоке AST-50</span>
+					</div>
+
+					<div class="block-top-page__item">
+						<img src="img/icon-xarizma/bottle.svg" alt="bottle" class="block-top-page__micro">
+						<span class="block-top-page__line">&#8213;</span>
+						<span class="block-top-page__descr "> Без пробкового сбора</span>
+					</div>
+
+					<div class="block-top-page__item item-deposit">
+						<img src="img/icon-xarizma/deposit.svg" alt="deposit" class="block-top-page__micro">
+						<span class="block-top-page__line">&#8213;</span>
+						<span class="block-top-page__descr "> Без депозита</span>
+					</div>
+
+					<div class="block-top-page__item">
+						<img src="img/icon-xarizma/happi.svg" alt="happi" class="block-top-page__micro">
+						<span class="block-top-page__line">&#8213;</span>
+						<span class="block-top-page__descr "> Скидка
+							в День Рождения</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="holl" id="holl">
+			<div class="holl__container">
+				<div class="holl__wrap">
+
+					<div class="holl__top top-holl">
+						<div class="top-holl__title gs-title-holl">Наши залы</div>
+						<div class="top-holl__descr gs-descr-hall">Ознакомтесь с атмосферой праздника</div>
+					</div>
+
+					<div class="holl__widget widget-holl">
+
+						<div data-tabs class="tabs">
+							<nav data-tabs-titles class="tabs__navigation">
+								<button type="button" class="tabs__title _tab-active">Hall №1</button>
+								<button type="button" class="tabs__title">Hall №2</button>
+								<button type="button" class="tabs__title">Hall №3</button>
+								<button type="button" class="tabs__title">Hall №5</button>
+							</nav>
+
+							<div data-tabs-body class="tabs__content">
+								<div class="holl__sliders sliders-holl">
+									<div class="sliders-holl__one one-slider">
+										<div class="sliders-holl__widget-box sliders-holl__widget-one widget-sliders-holl">
+											<div class="sliders-holl__widget-number sliders-holl__widget"><span>№
+													1</span>
+											</div>
+											<div class="sliders-holl__widget-long sliders-holl__widget"><span>40
+													м2</span>
+											</div>
+											<div class="sliders-holl__widget-humen sliders-holl__widget"><span>до 20-ти
+													человек</span></div>
+										</div>
+
+										<!-- Оболочка слайдера -->
+										<div class="holl1__slider swiper">
+											<!-- Двигающееся часть слайдера -->
+											<div class="holl1__wrapper swiper-wrapper">
+												<!-- Слайд -->
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide1_foto1.jpg" alt="foto1">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide1_foto2.jpg" alt="foto2">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide1_foto3.jpg" alt="foto3">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide1_foto4.jpg" alt="foto4">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide1_foto5.jpg" alt="foto5">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide1_foto6.jpg" alt="foto6">
+
+												</div>
+											</div>
+										</div>
+
+										<!-- Оболочка мини слайдера - первого слайдера -->
+										<div class="holl2__slider swiper">
+											<!-- Двигающееся часть слайдера -->
+											<div class="holl2__wrapper swiper-wrapper">
+												<!-- Слайд -->
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide1_mini1.jpg" alt="mini1">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide1_mini2.jpg" alt="mini2">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide1_mini3.jpg" alt="mini3">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide1_mini4.jpg" alt="mini4">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide1_mini5.jpg" alt="mini5">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide1_mini6.jpg" alt="mini6">
+												</div>
+											</div>
+										</div>
+
+										<div class="sliders-holl__arrows1 arrows-sliders-holl">
+											<!-- Если нужна пагинация -->
+											<div class="swiper-paginations"></div>
+											<!-- Если нужна навигация (влево/вправо) -->
+											<button type="button" class="swiper-button-nexts"><img src="img/icon-global/arrow.svg" alt="arrow"></button>
+											<button type="button" class="swiper-button-prevs"><img src="img/icon-global/arrow.svg" alt="arrow"></button>
+										</div>
+									</div>
+								</div>
+
+								<div class="holl__sliders sliders-holl">
+									<div class="sliders-holl__two two-slider">
+										<div class="sliders-holl__widget-box sliders-holl__widget-one widget-sliders-holl">
+											<div class="sliders-holl__widget-number sliders-holl__widget"><span>№
+													2</span>
+											</div>
+											<div class="sliders-holl__widget-long sliders-holl__widget"><span>60
+													м2</span>
+											</div>
+											<div class="sliders-holl__widget-humen sliders-holl__widget"><span>до 30-ти
+													человек</span></div>
+										</div>
+										<!-- Оболочка слайдера -->
+										<div class="holl3__slider swiper">
+											<!-- Двигающееся часть слайдера -->
+											<div class="holl3__wrapper swiper-wrapper">
+												<!-- Слайд -->
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide2_foto1.jpg" alt="foto1">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide2_foto2.jpg" alt="foto2">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide2_foto3.jpg" alt="foto3">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide2_foto4.jpg" alt="foto4">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide2_foto5.jpg" alt="foto5">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide2_foto6.jpg" alt="foto6">
+
+												</div>
+											</div>
+										</div>
+										<!-- Оболочка мини слайдера - первого слайдера -->
+										<div class="holl4__slider swiper">
+											<!-- Двигающееся часть слайдера -->
+											<div class="holl4__wrapper swiper-wrapper">
+												<!-- Слайд -->
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide2_mini1.jpg" alt="mini1">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide2_mini2.jpg" alt="mini2">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide2_mini3.jpg" alt="mini3">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide2_mini4.jpg" alt="mini4">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide2_mini5.jpg" alt="mini5">
+
+												</div>
+												<div class="holl__slide swiper-slide">
+													<img src="img/slider/slide2_mini6.jpg" alt="mini6">
+
+												</div>
+											</div>
+										</div>
+
+										<div class="sliders-holl__arrows3 arrows-sliders-holl">
+											<!-- Если нужна пагинация -->
+											<div class="swiper-paginations3"></div>
+											<!-- Если нужна навигация (влево/вправо) -->
+											<button type="button" class="swiper-button-nexts3"><img src="img/icon-global/arrow.svg" alt="arrow"></button>
+											<button type="button" class="swiper-button-prevs3"><img src="img/icon-global/arrow.svg" alt="arrow"></button>
+										</div>
+									</div>
+								</div>
+								<!-- <div class="tabs__body">
+								Содержимое третьего таба
+							    </div> -->
+							</div>
+						</div>
+					</div>
+
+					<div class="top-left__button button-holl__wrap">
+						<a href="" data-popup="#popup" class="button-holl__item button__top-left button-top">Забронировать</a>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="benefits">
+
+			<div class="benefits__container">
+
+				<div class="benefits__top top-holl">
+					<div class="top-holl__title gs-title-benefits">Наши Преимущества</div>
+					<div class="top-holl__descr gs-descr-benefits">Почему гости выбирают нас</div>
+				</div>
+
+				<div class="benefits__wrap">
+
+					<div class="benefits__left">
+
+						<div class="benefits__item benefits__item-bg item-benefits gs-benefits">
+							<div class="item-benefits__img"><img src="img/icon-xarizma/dress.svg" alt="dress"></div>
+							<div class="item-benefits__title">Никакого дресс-контроля</div>
+						</div>
+
+						<div class="benefits__item item-benefits gs-benefits">
+							<div class="item-benefits__img"><img src="img/icon-xarizma/circle.svg" alt="circle"></div>
+							<div class="item-benefits__title">~ 40.000 песен в сет листе</div>
+							<div class="item-benefits__text">
+								<div class="item-benefits__descr">Более 50,000 студийных фонограмм</div>
+								<div class="item-benefits__descr">Ежемесячное обновления репертуара</div>
+							</div>
+						</div>
+
+						<div class="benefits__item benefits__item-bg item-benefits gs-benefits">
+							<div class="item-benefits__img"><img src="img/icon-xarizma/dance.svg" alt="dance"></div>
+							<div class="item-benefits__title">Индивидуальные залы</div>
+							<div class="item-benefits__text">
+								<div class="item-benefits__descr">Только Ваша компания</div>
+							</div>
+						</div>
+
+						<div class="benefits__item item-benefits gs-benefits">
+							<div class="item-benefits__img"><img src="img/icon-xarizma/deposit.svg" alt="deposit"></div>
+							<div class="item-benefits__title">Без депозита</div>
+							<div class="item-benefits__text">
+								<div class="item-benefits__descr">Только Ваша компания</div>
+								<div class="item-benefits__descr">Оплата происходит за человека в час</div>
+							</div>
+						</div>
+
+						<div class="benefits__item benefits__item-bg item-benefits gs-benefits">
+							<div class="item-benefits__img"><img src="img/icon-xarizma/target.svg" alt="target"></div>
+							<div class="item-benefits__title">В самом центре города</div>
+							<div class="item-benefits__text">
+								<div class="item-benefits__descr">м. Парк</div>
+							</div>
+						</div>
+
+						<div class="benefits__item  item-benefits gs-benefits">
+							<div class="item-benefits__img"><img src="img/icon-xarizma/bottle.svg" alt="bottle"></div>
+							<div class="item-benefits__title">Нет пробкового сбора</div>
+							<div class="item-benefits__text">
+								<div class="item-benefits__descr">Можно приносить с собой еду, напитки и алкоголь без
+									пробкового сбора</div>
+							</div>
+						</div>
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+					<div class="benefits__right">
+
+						<div class="benefits__right-img">
+							<img src="img/advantages-micro.png" alt="advantages-micro">
+						</div>
+
+					</div>
+
+
+				</div>
+
+				<div class="top-left__button ">
+					<a href="" data-popup="#popup" class="button-holl__item button__top-left button-top">Забронировать</a>
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<section class="booking">
+
+			<div class="booking__container">
+				<div class="benefits__top top-holl">
+					<div class="top-holl__title gs-title-booking">Как забронировать зал?</div>
+					<div class="top-holl__descr gs-descr-booking">бронирование по шагам в чат-боте</div>
+				</div>
+
+
+			</div>
+
+			<div class="booking__gallery">
+
+
+
+
+				<div class="booking__slider swiper">
+					<div class="booking__wrapper swiper-wrapper">
+
+
+						<div class="booking__slide swiper-slide">
+							<div class="booking__slide-img">
+								<div class="booking__slide-number">1</div>
+								<img src="img/phone-gallery.png" alt="gallery">
+							</div>
+							<div class="booking__slide-text">
+								<div class="booking__slide-desc">Выбрать колличество часов посещения</div>
+							</div>
+						</div>
+
+
+						<div class="booking__slide swiper-slide">
+							<div class="booking__slide-img">
+								<div class="booking__slide-number">2</div>
+								<img src="img/phone-gallery.png" alt="gallery">
+							</div>
+							<div class="booking__slide-text">
+								<div class="booking__slide-desc">Выбрать колличество часов посещения</div>
+							</div>
+						</div>
+
+
+						<div class="booking__slide swiper-slide">
+							<div class="booking__slide-img">
+								<div class="booking__slide-number">3</div>
+								<img src="img/phone-gallery.png" alt="gallery">
+
+							</div>
+							<div class="booking__slide-text">
+								<div class="booking__slide-desc">Выбрать колличество часов посещения</div>
+							</div>
+						</div>
+
+
+						<div class="booking__slide swiper-slide">
+							<div class="booking__slide-img">
+								<div class="booking__slide-number">4</div>
+								<img src="img/phone-gallery.png" alt="gallery">
+							</div>
+							<div class="booking__slide-text">
+								<div class="booking__slide-desc">Выбрать колличество часов посещения</div>
+							</div>
+						</div>
+
+
+						<div class="booking__slide swiper-slide">
+							<div class="booking__slide-img">
+								<div class="booking__slide-number">5</div>
+								<img src="img/phone-gallery.png" alt="gallery">
+							</div>
+							<div class="booking__slide-text">
+								<div class="booking__slide-desc">Выбрать колличество часов посещения</div>
+							</div>
+						</div>
+
+
+						<div class="booking__slide swiper-slide">
+							<div class="booking__slide-img">
+								<div class="booking__slide-number">6</div>
+								<img src="img/phone-gallery.png" alt="gallery">
+							</div>
+							<div class="booking__slide-text">
+								<div class="booking__slide-desc">Выбрать колличество часов посещения</div>
+							</div>
+						</div>
+
+
+
+						<div class="booking__slide swiper-slide">
+							<div class="booking__slide-img">
+								<div class="booking__slide-number">7</div>
+								<img src="img/phone-gallery.png" alt="gallery">
+							</div>
+							<div class="booking__slide-text">
+								<div class="booking__slide-desc">Выбрать колличество часов посещения</div>
+							</div>
+						</div>
+
+
+						<div class="booking__slide swiper-slide">
+							<div class="booking__slide-img">
+								<div class="booking__slide-number">8</div>
+								<img src="img/phone-gallery.png" alt="gallery">
+							</div>
+							<div class="booking__slide-text">
+								<div class="booking__slide-desc">Выбрать колличество часов посещения</div>
+							</div>
+						</div>
+
+
+
+
+					</div>
+				</div>
+
+
+				<div class="sliders-holl__arrows5 arrows-sliders-holl">
+					<!-- Если нужна пагинация -->
+					<div class="swiper-paginations5"></div>
+					<!-- Если нужна навигация (влево/вправо) -->
+					<button type="button" class="swiper-button-nexts5"><img src="img/icon-global/arrow.svg" alt="arrow"></button>
+					<button type="button" class="swiper-button-prevs5"><img src="img/icon-global/arrow.svg" alt="arrow"></button>
+				</div>
+
+			</div>
+
+
+
+
+
+		</section>
+
+		<section class="answer">
+
+			<div class="answer__container">
+
+
+				<div class="answer__top top-holl">
+					<div class="top-holl__title gs-title-answer">Вопросы и ответы</div>
+					<div class="top-holl__descr gs-descr-answer">Мы подготовили ответы на часто задаваемые вопросы</div>
+				</div>
+
+				<div class="answer__wrap">
+					<div class="answer__left">
+
+						<div class="accordions-wrapper">
+
+							<div class="accordion gs-accordion">
+								<div class="accordion-header">
+									<h4>Какое у вас караоке?</h4>
+									<div class=" accordion__icon"><img src="img/icon-global/arrow.svg" alt="arrow">
+									</div>
+								</div>
+
+								<div class="accordion-body">
+									<p>
+										Более 50,000 студийных фонограмм. Из них 80% - оригинальные минусовки в качестве
+										PRO
+										(mp3 - WAV).
+										Ежемесячное обновления репертуара.
+										Более 10,000 специальных фонограмм в сопровождении оригинальных видеоклипов.
+									</p>
+								</div>
+							</div><!-- accordion -->
+
+							<div class="accordion gs-accordion">
+								<div class="accordion-header">
+									<h4>Есть ли у вас английские песни?</h4>
+									<div class=" accordion__icon"><img src="img/icon-global/arrow.svg" alt="arrow">
+									</div>
+								</div>
+
+								<div class="accordion-body">
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+										eaque sint distinctio, cupiditate placeat iusto perferendis magnam
+										possimus sapiente! Delectus aspernatur numquam laborum impedit
+										corporis.
+									</p>
+								</div>
+							</div><!-- accordion -->
+
+							<div class="accordion gs-accordion">
+								<div class="accordion-header">
+									<h4>Можно ли подключить телефон?</h4>
+									<div class=" accordion__icon"><img src="img/icon-global/arrow.svg" alt="arrow">
+									</div>
+								</div>
+
+								<div class="accordion-body">
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+										eaque sint distinctio, cupiditate placeat iusto perferendis magnam
+										possimus sapiente! Delectus aspernatur numquam laborum impedit
+										corporis.
+									</p>
+								</div>
+							</div><!-- accordion -->
+
+
+							<div class="accordion gs-accordion">
+								<div class="accordion-header">
+									<h4>Сколько микрофонов в каждом зале?</h4>
+									<div class=" accordion__icon"><img src="img/icon-global/arrow.svg" alt="arrow">
+									</div>
+								</div>
+
+								<div class="accordion-body">
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+										eaque sint distinctio, cupiditate placeat iusto perferendis magnam
+										possimus sapiente! Delectus aspernatur numquam laborum impedit
+										corporis.
+									</p>
+								</div>
+							</div><!-- accordion -->
+
+
+							<div class="accordion gs-accordion">
+								<div class="accordion-header">
+									<h4>Есть ли оплата картой?</h4>
+									<div class=" accordion__icon"><img src="img/icon-global/arrow.svg" alt="arrow">
+									</div>
+								</div>
+
+								<div class="accordion-body">
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+										eaque sint distinctio, cupiditate placeat iusto perferendis magnam
+										possimus sapiente! Delectus aspernatur numquam laborum impedit
+										corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+										eaque sint distinctio, cupiditate placeat iusto perferendis magnam
+										possimus sapiente! Delectus aspernatur numquam laborum impedit
+										corporis.
+									</p>
+								</div>
+							</div><!-- accordion -->
+
+
+							<div class="accordion gs-accordion">
+								<div class="accordion-header">
+									<h4>Как расчитывается стоимость?</h4>
+									<div class=" accordion__icon"><img src="img/icon-global/arrow.svg" alt="arrow">
+									</div>
+								</div>
+
+								<div class="accordion-body">
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+										eaque sint distinctio, cupiditate placeat iusto perferendis magnam
+										possimus sapiente! Delectus aspernatur numquam laborum impedit
+										corporis.
+									</p>
+								</div>
+							</div><!-- accordion -->
+
+
+
+
+						</div><!-- accordions-wrapper -->
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+					<div class="answer__right right-answer">
+
+						<div class="right-answer__desc">В нашем заведении Бельгийский ковролин. На входе выдают
+							<span>индивидуально запакованные тапочки,</span> в которые необходимо переобуться.
+						</div>
+						<div class="right-answer__img">
+							<img src="img/slippers.png" alt="slippers">
+						</div>
+
+
+						<div class="top-left__button answer__button">
+							<a href="" data-popup="#popup" class="button-holl__item button__top-left button-top">Забронировать зал</a>
+						</div>
+
+
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+
+
+		<footer class="footer">
+			<div class="footer__container">
+
+
+				<div class="footer__wrap">
+
+					<div class="footer__logo">
+						<a href="" class="header__logo logo-header"><img src="img/logo.svg" alt="" class="logo-header__img"></a>
+					</div>
+
+					<div class="footer__menu menu">
+
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item "><a href="tel:+380971234567" class="menu__link link-phone">+38 (097)
+										123-45-67</a>
+								</li>
+								<li class="menu__item "><a href="" class="menu__link link-work">Пн — Вс круглосуточно</a></li>
+								<li class="menu__item "><a href="" class="menu__link link-place">м. Парк</a></li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="footer__button">
+						<a href="" class="button-header__holl button-top">Построить маршрут</a>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+
+		<a href="#top"><span class="footer__arrow"><img src="img/icon-global/arrow.svg" alt="up_arrow"></span></a>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">&#10006;</button>
+				<div class="popup__text text-popup">
+
+
+					<div class="popup__box">
+						<div class="popup__box-item">
+							<div class="popup__img">
+								<img src="img/icon-global/phone.svg" width="40" height="40" alt="Phone">
+							</div>
+
+							<h2 class="popup__title">Оставьте свои данные</h2>
+
+							<div class="popup__descr">Перезвоним в течении 2 минут!</div>
+
+							<div class="popup__input">
+								<input type="text" name="name" class="input-name" placeholder="Ваше имя">
+								<input type="tel" name="tel" class="input-phone" placeholder="+381234123412">
+							</div><!-- popup__input -->
+
+							<button data-close type="submit" class="popup__submit">Забронировать</button>
+
+						</div><!-- popup__box-item -->
+					</div><!-- popup__box -->
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js?_v=20221211174401"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js?_v=20221211174401"></script>
+	<script src="js/app.min.js?_v=20221211174401"></script>
+
+</body>
+
+</html>
