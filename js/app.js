@@ -230,11 +230,6 @@
             }
         }));
     }
-    function functions_FLS(message) {
-        setTimeout((() => {
-            if (window.FLS) console.log(message);
-        }), 0);
-    }
     function uniqArray(array) {
         return array.filter((function(item, index, self) {
             return self.indexOf(item) === index;
@@ -349,7 +344,6 @@
             this.options.init ? this.initPopups() : null;
         }
         initPopups() {
-            this.popupLogging(`Проснулся`);
             this.eventsPopup();
         }
         eventsPopup() {
@@ -365,8 +359,7 @@
                         this._selectorOpen = true;
                         this.open();
                         return;
-                    } else this.popupLogging(`Ой ой, не заполнен атрибут у ${buttonOpen.classList}`);
-                    return;
+                    }
                 }
                 const buttonClose = e.target.closest(`[${this.options.attributeCloseButton}]`);
                 if (buttonClose || !e.target.closest(`.${this.options.classes.popupContent}`) && this.isOpen) {
@@ -450,8 +443,7 @@
                             popup: this
                         }
                     }));
-                    this.popupLogging(`Открыл попап`);
-                } else this.popupLogging(`Ой ой, такого попапа нет.Проверьте корректность ввода. `);
+                }
             }
         }
         close(selectorValue) {
@@ -485,7 +477,6 @@
             setTimeout((() => {
                 this._focusTrap();
             }), 50);
-            this.popupLogging(`Закрыл попап`);
         }
         _getHash() {
             if (this.options.hashSettings.location) this.hash = this.targetOpen.selector.includes("#") ? this.targetOpen.selector : this.targetOpen.selector.replace(".", "#");
@@ -517,9 +508,6 @@
         _focusTrap() {
             const focusable = this.previousOpen.element.querySelectorAll(this._focusEl);
             if (!this.isOpen && this.lastFocusEl) this.lastFocusEl.focus(); else focusable[0].focus();
-        }
-        popupLogging(message) {
-            this.options.logging ? functions_FLS(`[Попапос]: ${message}`) : null;
         }
     }
     modules_flsModules.popup = new Popup({});
@@ -7480,7 +7468,6 @@
             ease: "bounce"
         });
     }));
-    window["FLS"] = true;
     isWebp();
     menuInit();
     tabs();
